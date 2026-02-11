@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | mbtiquiz.org</title>
+    <meta name="description" content="Contact mbtiquiz.org. Get in touch with us for questions, feedback, or suggestions about our free MBTI personality test.">
+    <link rel="canonical" href="https://mbtiquiz.org/contact.html">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact Us | mbtiquiz.org">
+    <meta property="og:description" content="Get in touch with the mbtiquiz.org team. We'd love to hear from you.">
+    <meta property="og:url" content="https://mbtiquiz.org/contact.html">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --bg: #faf5ff;
+            --surface: #fff;
+            --border: #e9d5ff;
+            --text: #1e1b4b;
+            --muted: #6b7280;
+            --accent: #7c3aed;
+            --accent-light: #ede9fe;
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+        }
+
+        .logo a {
+            color: inherit;
+        }
+
+        .logo a:hover {
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: 3rem 0 2rem;
+        }
+
+        .page-header h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .page-header .subtitle {
+            color: var(--muted);
+            font-size: 1.1rem;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        .page-body {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2.5rem 2.5rem;
+            max-width: 680px;
+            margin: 0 auto 2rem;
+        }
+
+        .page-body h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 2.25rem 0 0.75rem;
+            letter-spacing: -0.015em;
+            color: var(--text);
+        }
+
+        .page-body h2:first-child {
+            margin-top: 0;
+        }
+
+        .page-body p {
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        .page-body strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .contact-form {
+            margin-top: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.4rem;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            color: var(--text);
+            background: var(--bg);
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        .btn-primary:hover {
+            background: #6d28d9;
+            text-decoration: none;
+            color: #fff;
+            transform: translateY(-1px);
+        }
+
+        .email-direct {
+            background: var(--accent-light);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .email-direct p {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .email-direct a {
+            font-size: 1.15rem;
+            font-weight: 700;
+        }
+
+        .ad-slot {
+            background: var(--accent-light);
+            border: 1px dashed var(--border);
+            border-radius: 8px;
+            text-align: center;
+            padding: 1rem;
+            margin: 2rem auto;
+            max-width: 728px;
+            min-height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        .footer {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            padding: 2rem 0;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .footer p {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .footer-links {
+            margin-top: 0.75rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--muted);
+            font-size: 0.82rem;
+        }
+
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 1.65rem;
+            }
+
+            .page-body {
+                padding: 1.5rem 1.25rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8767713037568144" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo"><a href="/">mbtiquiz.org</a></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Test</a></li>
+                    <li><a href="/#types">16 Types</a></li>
+                    <li><a href="/#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="container">
+        <div class="page-header">
+            <h1>Contact Us</h1>
+            <p class="subtitle">Have a question, suggestion, or feedback? We would love to hear from you.</p>
+        </div>
+    </div>
+
+    <!-- Page Body -->
+    <div class="container">
+        <div class="page-body">
+
+            <h2>Send Us a Message</h2>
+            <p>Use the form below to get in touch. We will do our best to respond within 1-2 business days.</p>
+
+            <form class="contact-form" action="mailto:contact@mbtiquiz.org" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="General Question">General Question</option>
+                        <option value="Quiz Feedback">Quiz Feedback</option>
+                        <option value="Bug Report">Bug Report</option>
+                        <option value="Content Suggestion">Content Suggestion</option>
+                        <option value="Partnership Inquiry">Partnership Inquiry</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+
+            <div class="email-direct">
+                <p>Or email us directly at:</p>
+                <a href="mailto:contact@mbtiquiz.org">contact@mbtiquiz.org</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Ad Slot -->
+    <div class="container">
+        <div class="ad-slot">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8767713037568144"
+                 data-ad-slot="auto"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 mbtiquiz.org. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/#types">16 Types</a>
+                <a href="/#blog">Blog</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -2,13 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://mbtiquiz.org/</loc>
-        <lastmod>2026-01-15</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://mbtiquiz.org/about.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/contact.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/privacy-policy.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/terms-of-service.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://mbtiquiz.org/blog/mbti-types-complete-guide-2026.html</loc>
         <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/blog/mbti-compatibility-guide.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/blog/mbti-career-guide-by-personality-type.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/blog/mbti-in-the-workplace.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mbtiquiz.org/blog/mbti-vs-big-five-personality-tests.html</loc>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
